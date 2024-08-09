@@ -7,7 +7,7 @@ import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/app_images.dart';
 import '../../../../core/utils/app_spacer.dart';
 import '../../../../core/utils/app_styles.dart';
-import '../../../home/presentation/views/home_view.dart';
+import '../../../layout/presentation/view/layout_view.dart';
 import '../../../onboarding/presentation/views/onboarding_view.dart';
 
 class SplashView extends StatefulWidget {
@@ -31,7 +31,7 @@ class _SplashViewState extends State<SplashView> {
       Future.delayed(
         const Duration(seconds: 3),
         () => Navigator.of(context).pushReplacementNamed(
-          HomeView.routeName,
+          LayoutView.routeName,
         ),
       );
     } else {

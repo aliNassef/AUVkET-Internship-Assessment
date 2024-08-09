@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'features/layout/presentation/view/layout_view.dart';
-
+ 
 import 'core/utils/app_colors.dart';
 import 'core/utils/app_router.dart';
+import 'features/splash/presentation/view/splash_view.dart';
 
 class EcommerceApp extends StatelessWidget {
   const EcommerceApp({super.key});
@@ -27,7 +27,7 @@ class EcommerceApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: AppColors.mainColor),
           useMaterial3: true,
         ),
-        initialRoute: LayoutView.routeName,
+        initialRoute: SplashView.routeName,
       ),
     );
   }
