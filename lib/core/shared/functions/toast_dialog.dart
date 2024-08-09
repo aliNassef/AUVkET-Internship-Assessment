@@ -1,7 +1,8 @@
-import '../../utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+
+import '../../utils/app_colors.dart';
 
 void showToast({required String text}) {
   Fluttertoast.showToast(

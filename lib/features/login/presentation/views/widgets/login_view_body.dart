@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:intern_task/core/shared/functions/build_loading_box.dart';
-import 'package:intern_task/core/shared/widgets/custom_text_form_field.dart';
-import 'package:intern_task/core/shared/widgets/default_app_button.dart';
-import 'package:intern_task/core/utils/app_images.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
-import 'package:intern_task/features/home/presentation/views/home_view.dart';
-import 'package:intern_task/features/login/presentation/view_model/login_cubit/login_cubit.dart';
-import 'package:intern_task/features/login/presentation/view_model/login_cubit/login_state.dart';
-import 'package:intern_task/features/login/presentation/views/widgets/create_new_account.dart';
-import 'package:intern_task/features/login/presentation/views/widgets/remember_or_forgetpass.dart';
+import '../../../../../core/shared/functions/build_loading_box.dart';
+import '../../../../../core/shared/widgets/custom_text_form_field.dart';
+import '../../../../../core/shared/widgets/default_app_button.dart';
+import '../../../../../core/utils/app_images.dart';
+import '../../../../../core/utils/app_spacer.dart';
+import '../../../../home/presentation/views/home_view.dart';
+import '../../view_model/login_cubit/login_cubit.dart';
+import '../../view_model/login_cubit/login_state.dart';
+import 'create_new_account.dart';
+import 'remember_or_forgetpass.dart';
 
 class LoginViewBody extends StatelessWidget {
   const LoginViewBody({super.key});

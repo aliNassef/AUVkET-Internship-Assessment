@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intern_task/core/DI/dependency_injection.dart';
-import 'package:intern_task/features/home/data/repo/home_repo_impl.dart';
-import 'package:intern_task/features/home/presentation/view_model/get_all_product/get_all_products_cubit.dart';
-import 'package:intern_task/features/home/presentation/view_model/get_categories_cubit/get_categories_cubit.dart';
+import '../../../../core/DI/dependency_injection.dart';
+import '../../data/repo/home_repo_impl.dart';
+import '../view_model/get_all_product/get_all_products_cubit.dart';
+import '../view_model/get_categories_cubit/get_categories_cubit.dart';
 
 import 'widgets/home_view_body.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/features/onboarding/presentation/views/widgets/row_indicator.dart';
+import 'row_indicator.dart';
 
 import 'onboarding_item.dart';
 

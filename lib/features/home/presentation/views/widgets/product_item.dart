@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
-import 'package:intern_task/core/utils/app_styles.dart';
+import '../../../../../core/utils/app_spacer.dart';
+import '../../../../../core/utils/app_styles.dart';
 
 import '../../../data/model/product_model/datum.dart';
 

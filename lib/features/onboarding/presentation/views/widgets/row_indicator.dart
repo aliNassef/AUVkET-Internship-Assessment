@@ -1,7 +1,7 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/features/login/presentation/views/login_view.dart';
+import '../../../../login/presentation/views/login_view.dart';
 
 class RowIndicator extends StatefulWidget {
   const RowIndicator({

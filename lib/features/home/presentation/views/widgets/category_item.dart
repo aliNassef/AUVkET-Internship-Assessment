@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_styles.dart';
-import 'package:intern_task/features/home/data/model/category_model.dart';
+import '../../../../../core/utils/app_styles.dart';
+import '../../../data/model/category_model.dart';
 
 class CategoryItem extends StatelessWidget {
   const CategoryItem({super.key, required this.category});

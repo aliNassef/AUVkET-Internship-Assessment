@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_colors.dart';
-import 'package:intern_task/features/sign_up/presentation/view_model/sign_up_cubit/sign_up_cubit.dart';
-import 'package:intern_task/features/sign_up/presentation/view_model/sign_up_cubit/sign_up_state.dart';
+import '../../../../../core/utils/app_colors.dart';
+import '../../view_model/sign_up_cubit/sign_up_cubit.dart';
+import '../../view_model/sign_up_cubit/sign_up_state.dart';
 
 import '../../../../../core/utils/app_styles.dart';
 

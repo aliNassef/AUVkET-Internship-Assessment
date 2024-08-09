@@ -1,8 +1,8 @@
 import 'dart:developer';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intern_task/features/products/data/repo/product_repo.dart';
-import 'package:intern_task/features/products/presentation/view_model/product_cubit/product_state.dart';
+import '../../../data/repo/product_repo.dart';
+import 'product_state.dart';
 
 class ProductCubit extends Cubit<ProductState> {
   ProductCubit(this._productRepo) : super(ProductInitial());

@@ -1,12 +1,12 @@
 import 'dart:developer';
 
 import 'package:dartz/dartz.dart';
-import 'package:intern_task/core/api/api_consumer.dart';
-import 'package:intern_task/core/api/end_ponits.dart';
-import 'package:intern_task/core/errors/exceptions.dart';
-import 'package:intern_task/features/home/data/model/category_model.dart';
-import 'package:intern_task/features/home/data/model/product_model/product_model.dart';
-import 'package:intern_task/features/home/data/repo/home_repo.dart';
+import '../../../../core/api/api_consumer.dart';
+import '../../../../core/api/end_ponits.dart';
+import '../../../../core/errors/exceptions.dart';
+import '../model/category_model.dart';
+import '../model/product_model/product_model.dart';
+import 'home_repo.dart';
 
 class HomeRepoImpl extends HomeRepo {
   final ApiConsumer api;

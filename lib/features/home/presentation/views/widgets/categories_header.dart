@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_styles.dart';
+import '../../../../../core/utils/app_styles.dart';
 
 class CategoriesHeader extends StatelessWidget {
   const CategoriesHeader({

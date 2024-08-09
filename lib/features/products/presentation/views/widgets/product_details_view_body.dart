@@ -1,13 +1,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/shared/widgets/default_app_button.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
-import 'package:intern_task/features/home/data/model/product_model/datum.dart';
-import 'package:intern_task/features/products/presentation/views/widgets/carsousel_images.dart';
-import 'package:intern_task/features/products/presentation/views/widgets/prouct_description.dart';
-import 'package:intern_task/features/products/presentation/views/widgets/sold_and_ratig_row.dart';
-import 'package:intern_task/features/products/presentation/views/widgets/title_and_price_row.dart';
+import '../../../../../core/shared/widgets/default_app_button.dart';
+import '../../../../../core/utils/app_spacer.dart';
+import '../../../../home/data/model/product_model/datum.dart';
+import 'carsousel_images.dart';
+import 'prouct_description.dart';
+import 'sold_and_ratig_row.dart';
+import 'title_and_price_row.dart';
 
 class ProductDetailsViewBody extends StatelessWidget {
   const ProductDetailsViewBody({

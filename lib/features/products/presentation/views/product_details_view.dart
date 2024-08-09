@@ -1,7 +1,7 @@
 import 'dart:developer';
 import 'package:flutter/material.dart';
-import 'package:intern_task/features/home/data/model/product_model/datum.dart';
-import 'package:intern_task/features/products/presentation/views/widgets/product_details_view_body.dart';
+import '../../../home/data/model/product_model/datum.dart';
+import 'widgets/product_details_view_body.dart';
 
 class ProductDetailsView extends StatelessWidget {
   const ProductDetailsView({super.key, required this.productDetails});

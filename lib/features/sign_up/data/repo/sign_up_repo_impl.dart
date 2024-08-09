@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:intern_task/core/api/api_consumer.dart';
-import 'package:intern_task/core/api/end_ponits.dart';
-import 'package:intern_task/core/errors/exceptions.dart';
-import 'package:intern_task/features/sign_up/data/model/sign_up_model/sign_up_model.dart';
-import 'package:intern_task/features/sign_up/data/repo/sign_up_repo.dart';
+import '../../../../core/api/api_consumer.dart';
+import '../../../../core/api/end_ponits.dart';
+import '../../../../core/errors/exceptions.dart';
+import '../model/sign_up_model/sign_up_model.dart';
+import 'sign_up_repo.dart';
 
 class SignUpRepoImpl extends SignUpRepo {
   final ApiConsumer api;

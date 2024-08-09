@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_styles.dart';
-import 'package:intern_task/features/cart/data/models/product.dart';
-import 'package:intern_task/features/cart/presentation/views/widgets/counter_row.dart';
+import '../../../../../core/utils/app_styles.dart';
+import '../../../data/models/product.dart';
+import 'counter_row.dart';
 
 import '../../../../../core/utils/app_colors.dart';
 import '../../../../../core/utils/app_spacer.dart';

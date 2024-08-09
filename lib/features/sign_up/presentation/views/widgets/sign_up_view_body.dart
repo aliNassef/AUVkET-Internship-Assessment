@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:intern_task/core/shared/functions/build_loading_box.dart';
-import 'package:intern_task/core/shared/functions/toast_dialog.dart';
-import 'package:intern_task/core/shared/widgets/custom_text_form_field.dart';
-import 'package:intern_task/core/shared/widgets/default_app_button.dart';
-import 'package:intern_task/core/utils/app_images.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
-import 'package:intern_task/features/login/presentation/views/login_view.dart';
-import 'package:intern_task/features/sign_up/presentation/view_model/sign_up_cubit/sign_up_state.dart';
-import 'package:intern_task/features/sign_up/presentation/views/widgets/already_have_account.dart';
-import 'package:intern_task/features/sign_up/presentation/views/widgets/terms_and_condations.dart';
+import '../../../../../core/shared/functions/build_loading_box.dart';
+import '../../../../../core/shared/functions/toast_dialog.dart';
+import '../../../../../core/shared/widgets/custom_text_form_field.dart';
+import '../../../../../core/shared/widgets/default_app_button.dart';
+import '../../../../../core/utils/app_images.dart';
+import '../../../../../core/utils/app_spacer.dart';
+import '../../../../login/presentation/views/login_view.dart';
+import '../../view_model/sign_up_cubit/sign_up_state.dart';
+import 'already_have_account.dart';
+import 'terms_and_condations.dart';
 
 import '../../view_model/sign_up_cubit/sign_up_cubit.dart';
 

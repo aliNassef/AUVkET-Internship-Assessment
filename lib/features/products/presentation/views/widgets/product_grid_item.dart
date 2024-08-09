@@ -2,11 +2,11 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_colors.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
-import 'package:intern_task/core/utils/app_styles.dart';
-import 'package:intern_task/features/home/data/model/product_model/datum.dart';
-import 'package:intern_task/features/products/presentation/views/product_details_view.dart';
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/app_spacer.dart';
+import '../../../../../core/utils/app_styles.dart';
+import '../../../../home/data/model/product_model/datum.dart';
+import '../product_details_view.dart';
 
 class ProductGridItem extends StatelessWidget {
   const ProductGridItem({

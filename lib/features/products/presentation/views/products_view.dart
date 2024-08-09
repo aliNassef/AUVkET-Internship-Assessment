@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intern_task/core/DI/dependency_injection.dart';
-import 'package:intern_task/features/home/presentation/view_model/get_all_product/get_all_products_cubit.dart';
-import 'package:intern_task/features/products/presentation/views/widgets/products_view_body.dart';
+import '../../../../core/DI/dependency_injection.dart';
+import '../../../home/presentation/view_model/get_all_product/get_all_products_cubit.dart';
+import 'widgets/products_view_body.dart';
 
 class ProductsView extends StatelessWidget {
   const ProductsView({super.key});

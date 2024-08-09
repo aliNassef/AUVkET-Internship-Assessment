@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:intern_task/features/cart/presentation/views/cart_view.dart';
-import 'package:intern_task/features/splash/presentation/view/splash_view.dart';
+import 'features/layout/presentation/view/layout_view.dart';
 
 import 'core/utils/app_colors.dart';
 import 'core/utils/app_router.dart';
@@ -28,7 +27,7 @@ class EcommerceApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: AppColors.mainColor),
           useMaterial3: true,
         ),
-        initialRoute: CartView.routeName,
+        initialRoute: LayoutView.routeName,
       ),
     );
   }

@@ -1,4 +1,4 @@
-import 'package:intern_task/features/home/data/model/category_model.dart';
+import '../../../data/model/category_model.dart';
 
 class GetCategoriesState {}
 

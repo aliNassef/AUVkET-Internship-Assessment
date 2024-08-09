@@ -1,8 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:intern_task/core/utils/app_colors.dart';
-import 'package:intern_task/core/utils/app_styles.dart';
-import 'package:intern_task/features/sign_up/presentation/views/sign_up_view.dart';
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/app_styles.dart';
+import '../../../../sign_up/presentation/views/sign_up_view.dart';
 
 class CreateNewAccount extends StatelessWidget {
   const CreateNewAccount({super.key});

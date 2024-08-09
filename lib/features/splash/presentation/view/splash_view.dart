@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/constants.dart';
-import 'package:intern_task/core/DI/dependency_injection.dart';
-import 'package:intern_task/core/cache/cache_helper.dart';
-import 'package:intern_task/core/utils/app_colors.dart';
-import 'package:intern_task/core/utils/app_images.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
-import 'package:intern_task/core/utils/app_styles.dart';
-import 'package:intern_task/features/home/presentation/views/home_view.dart';
-import 'package:intern_task/features/onboarding/presentation/views/onboarding_view.dart';
+import '../../../../constants.dart';
+import '../../../../core/DI/dependency_injection.dart';
+import '../../../../core/cache/cache_helper.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../../../core/utils/app_images.dart';
+import '../../../../core/utils/app_spacer.dart';
+import '../../../../core/utils/app_styles.dart';
+import '../../../home/presentation/views/home_view.dart';
+import '../../../onboarding/presentation/views/onboarding_view.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intern_task/features/sign_up/data/repo/sign_up_repo.dart';
-import 'package:intern_task/features/sign_up/presentation/view_model/sign_up_cubit/sign_up_state.dart';
+import '../../../data/repo/sign_up_repo.dart';
+import 'sign_up_state.dart';
 
 class SignUpCubit extends Cubit<SignUpState> {
   SignUpCubit(this._signUpRepo) : super(SignUpInitial());

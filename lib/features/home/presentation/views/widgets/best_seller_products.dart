@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
-import 'package:intern_task/features/home/presentation/view_model/get_all_product/get_all_products_state.dart';
-import 'package:intern_task/features/home/presentation/views/widgets/product_item.dart';
+import '../../../../../core/utils/app_spacer.dart';
+import '../../view_model/get_all_product/get_all_products_state.dart';
+import 'product_item.dart';
 import 'package:shimmer/shimmer.dart';
 
 import '../../view_model/get_all_product/get_all_products_cubit.dart';

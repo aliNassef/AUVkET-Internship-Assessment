@@ -1,11 +1,11 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intern_task/constants.dart';
-import 'package:intern_task/core/DI/dependency_injection.dart';
-import 'package:intern_task/core/api/end_ponits.dart';
-import 'package:intern_task/core/cache/cache_helper.dart';
-import 'package:intern_task/features/login/data/repo/login_repo.dart';
-import 'package:intern_task/features/login/presentation/view_model/login_cubit/login_state.dart';
+import '../../../../../constants.dart';
+import '../../../../../core/DI/dependency_injection.dart';
+import '../../../../../core/api/end_ponits.dart';
+import '../../../../../core/cache/cache_helper.dart';
+import '../../../data/repo/login_repo.dart';
+import 'login_state.dart';
 
 class LoginCubit extends Cubit<LoginState> {
   LoginCubit(this._loginRepo) : super(LoginInitial());

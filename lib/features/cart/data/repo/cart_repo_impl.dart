@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:intern_task/core/errors/exceptions.dart';
-import 'package:intern_task/features/cart/data/models/cart_model.dart';
-import 'package:intern_task/features/cart/data/repo/cart_repo.dart';
+import '../../../../core/errors/exceptions.dart';
+import '../models/cart_model.dart';
+import 'cart_repo.dart';
   
 import '../../../../core/api/api_consumer.dart';
 import '../../../../core/api/end_ponits.dart';

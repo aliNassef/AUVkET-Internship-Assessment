@@ -1,4 +1,4 @@
-import 'package:intern_task/core/utils/app_images.dart';
+import 'core/utils/app_images.dart';
  
 import 'features/onboarding/data/model/page_view_model.dart';
 

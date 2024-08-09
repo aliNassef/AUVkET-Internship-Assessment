@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_colors.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/app_spacer.dart';
 import 'package:shimmer/shimmer.dart';
 
 class CartShimmerLoading extends StatelessWidget {

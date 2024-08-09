@@ -1,4 +1,4 @@
-import 'package:intern_task/features/cart/data/models/cart_model.dart';
+import '../../../data/models/cart_model.dart';
 
 class CartState {}
 

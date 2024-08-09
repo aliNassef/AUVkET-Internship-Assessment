@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:intern_task/features/login/data/model/login/login.dart';
-import 'package:intern_task/features/login/data/repo/login_repo.dart';
+import '../model/login/login.dart';
+import 'login_repo.dart';
 import '../../../../core/api/api_consumer.dart';
 import '../../../../core/api/end_ponits.dart';
 import '../../../../core/errors/exceptions.dart';

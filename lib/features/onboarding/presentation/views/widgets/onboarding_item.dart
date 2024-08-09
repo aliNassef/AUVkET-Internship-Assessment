@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/constants.dart';
+import '../../../../../constants.dart';
 import '../../../../../core/utils/app_spacer.dart';
 import '../../../../../core/utils/app_styles.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
  import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:intern_task/core/shared/widgets/custom_search_bar.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
- import 'package:intern_task/features/products/presentation/views/widgets/product_grid_view_Items.dart';
+import '../../../../../core/shared/widgets/custom_search_bar.dart';
+import '../../../../../core/utils/app_spacer.dart';
+import 'product_grid_view_Items.dart';
  
 import '../../../../../core/utils/app_colors.dart';
 import '../../../../../core/utils/app_styles.dart';

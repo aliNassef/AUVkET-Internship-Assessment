@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_styles.dart';
-import 'package:intern_task/features/home/data/model/product_model/datum.dart';
+import '../../../../../core/utils/app_styles.dart';
+import '../../../../home/data/model/product_model/datum.dart';
  
 class TitleAndPriceRow extends StatelessWidget {
   const TitleAndPriceRow({

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intern_task/core/utils/app_spacer.dart';
-import 'package:intern_task/features/home/presentation/view_model/get_all_product/get_all_products_cubit.dart';
-import 'package:intern_task/features/home/presentation/view_model/get_all_product/get_all_products_state.dart';
-import 'package:intern_task/features/products/presentation/views/widgets/product_grid_item.dart';
+import '../../../../../core/utils/app_spacer.dart';
+import '../../../../home/presentation/view_model/get_all_product/get_all_products_cubit.dart';
+import '../../../../home/presentation/view_model/get_all_product/get_all_products_state.dart';
+import 'product_grid_item.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ProductGridViewItems extends StatelessWidget {

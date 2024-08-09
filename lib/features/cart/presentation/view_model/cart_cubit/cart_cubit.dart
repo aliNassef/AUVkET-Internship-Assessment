@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intern_task/features/cart/data/models/cart_model.dart';
-import 'package:intern_task/features/cart/data/repo/cart_repo.dart';
-import 'package:intern_task/features/cart/presentation/view_model/cart_cubit/cart_state.dart';
+import '../../../data/models/cart_model.dart';
+import '../../../data/repo/cart_repo.dart';
+import 'cart_state.dart';
 
 class CartCubit extends Cubit<CartState> {
   CartCubit(this._cartRepo) : super(CartInitial());
