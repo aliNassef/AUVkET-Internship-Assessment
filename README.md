@@ -5,18 +5,18 @@ Architcture
   i used MVVM
   Model: Responsible for handling the data and business logic of the application. This layer communicates with the API and other data sources.
   View: The UI layer of the app. It listens to the ViewModel for any updates and renders the UI accordingly.
-  ViewModel: Acts as an intermediary between the View and the Model. It fetches data from the Model and provides it to the View, handling any necessary transformations.
+  ViewModel: Acts as an intermediary between the View and the Model. It fetches data from the Model and provides it to the View, handling any necessary transformations.\
 State Management
-    Cubit : Explain how you manage state in your application. Describe the Cubit structure and how it helps in maintaining a predictable state across the app.
+    Cubit : Explain how you manage state in your application. Describe the Cubit structure and how it helps in maintaining a predictable state across the app.\
 Navigation
-    Navigation and Routing: Detail your navigation strategy, particularly the use of onGenerateRoute. Mention how this architecture keeps the navigation flow clean and organized.
+    Navigation and Routing: Detail your navigation strategy, particularly the use of onGenerateRoute. Mention how this architecture keeps the navigation flow clean and organized.\
 Features 
     LogIn
     SignUp
     Product
     Layout
     Splash
-    Onboarding
+    Onboarding\
 
 ## Getting Started
 
