@@ -1,6 +1,6 @@
 # intern_task
 Introduction 
-    this is an ecoomerce app with mock api 
+    this is an ecoomerce app with mock api\
 Architcture 
   i used MVVM
   Model: Responsible for handling the data and business logic of the application. This layer communicates with the API and other data sources.
